@@ -2,26 +2,10 @@
 A sample code on how to use MLFlow
 
 Features:
-- 
-
-## Quick start
-1. Run the MLFlow Service
-```
-mlflow server --host 127.0.0.1 --port 5080
-
-# or
-
-mlflow ui
-```
-
-2. Train a model and prepare metadata for logging 
-```
-python simpleML.py        # MLflow Quickstart
-python anotherSample.py   # MLflow RandomForestClassifier
-```
-
-3. View the Run in the MLflow UI
-> Go to [http://localhost:8080](http://localhost:5080)
+- MLFlow Tracking
+- MLFlow Projects
+- MLFlow Models
+- MLFlow Model Registry
 
 ## Installing using GitHub
 - Fork the project into your GitHub
