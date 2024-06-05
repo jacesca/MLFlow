@@ -1,0 +1,12 @@
+name: insurance_model
+python_env: env.yml
+entry_points: 
+  main:
+    parameters:
+      n_jobs_param:
+        type: int
+        default: 1
+      intercept_param:
+        type: bool
+        default: True
+    command: "python train_insurance_model.py {n_jobs_param} {intercept_param}"

@@ -1,0 +1,5 @@
+name: salary_model
+python_env: env.yml
+entry_points: 
+  main:
+    command: "python train_salary_model.py"

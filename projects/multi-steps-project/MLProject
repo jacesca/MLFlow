@@ -1,0 +1,18 @@
+name: insurance_model
+python_env: env.yml
+entry_points:
+  model_engineering:
+    parameters: 
+      n_jobs:
+        type: int
+        default: 1
+      fit_intercept:
+        type: bool
+        default: True
+    command: "python train_model.py {n_jobs} {fit_intercept}"
+  model_evaluation:
+    parameters:
+      run_id:
+        type: str 
+        default: None
+    command: "python evaluate.py {run_id}"
