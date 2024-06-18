@@ -4,7 +4,7 @@
 ```
 conda list -e > requirements.txt
 # or
-pip freeze > requirements.txt
+pip list --format=freeze > requirements.txt
 
 conda env export > flask_env.yml
 ```
